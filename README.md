@@ -4,4 +4,5 @@ Material associated to Bernetti, Hall, and Bussi, [arXiv:2103.04964](https://arx
 
 Representative structures and cluster centroids are included (with solvent molecules).
 
-Full trajectories to be uploaded.
+Full trajectories at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4646262.svg)](https://doi.org/10.5281/zenodo.4646262)
+.
