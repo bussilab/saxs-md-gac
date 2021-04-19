@@ -77,6 +77,6 @@ uwall_ratio:  UPPER_WALLS ARG=ratio AT=2.7  KAPPA=41.84 EXP=2 EPS=0.01
 meta: METAD ARG=ratio,diff SIGMA=0.035,0.05 HEIGHT=2.09 BIASFACTOR=10 PACE=400 GRID_MIN=0,0 GRID_MAX=8,14 STRIDE=2
 
 # print stuff
-PRINT ARG=(saxs\.q-.*),(saxs\.exp-.*),ratio FILE=colvar_check_saxs STRIDE=5000
+PRINT ARG=(saxs\.q-.*),ratio FILE=colvar_check_saxs STRIDE=5000
 PRINT ARG=Rg,ratio,diff,full,(stem.),(.*x),meta.bias,(uwall.\.bias),lwall.bias,uwall.bias,uwall_ratio.bias FILE=COLVAR_metad STRIDE=100
 
