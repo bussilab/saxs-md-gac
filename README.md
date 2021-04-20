@@ -6,3 +6,5 @@ Representative structures and cluster centroids are included (with solvent molec
 
 Full trajectories at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4646262.svg)](https://doi.org/10.5281/zenodo.4646262)
 .
+
+PLUMED Egg at [![plumID:21.016](https://www.plumed-nest.org/eggs/21/016/badge.svg)](https://www.plumed-nest.org/eggs/21/016/)
