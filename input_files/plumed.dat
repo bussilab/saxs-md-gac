@@ -19,11 +19,11 @@ stem4: ERMSD REFERENCE=npt_no_contact.pdb ATOMS=@lcs-39,@lcs-40,@lcs-41,@lcs-42,
 diff: CUSTOM ARG=full,stem1,stem2,stem3,stem4 VAR=full,stem1,stem2,stem3,stem4 FUNC=sqrt(57*full^2-11*stem1^2-6*stem2^2-8*stem3^2-8*stem4^2) PERIODIC=NO
 
 # eRMSD on the whole structure and stems
-fullx: ERMSD REFERENCE=npt.pdb ATOMS=@lcs-1,@lcs-2,@lcs-3,@lcs-4,@lcs-5,@lcs-6,@lcs-7,@lcs-8,@lcs-9,@lcs-10,@lcs-11,@lcs-12,@lcs-13,@lcs-14,@lcs-15,@lcs-16,@lcs-17,@lcs-18,@lcs-19,@lcs-20,@lcs-21,@lcs-22,@lcs-23,@lcs-24,@lcs-25,@lcs-26,@lcs-27,@lcs-28,@lcs-29,@lcs-30,@lcs-31,@lcs-32,@lcs-33,@lcs-34,@lcs-35,@lcs-36,@lcs-37,@lcs-38,@lcs-39,@lcs-40,@lcs-41,@lcs-42,@lcs-43,@lcs-44,@lcs-45,@lcs-46,@lcs-47,@lcs-48,@lcs-49,@lcs-50,@lcs-51,@lcs-52,@lcs-53,@lcs-54,@lcs-55,@lcs-56,@lcs-57
-stem1x: ERMSD REFERENCE=npt.pdb ATOMS=@lcs-1,@lcs-2,@lcs-3,@lcs-4,@lcs-5,@lcs-52,@lcs-53,@lcs-54,@lcs-55,@lcs-56,@lcs-57
-stem2x: ERMSD REFERENCE=npt.pdb ATOMS=@lcs-6,@lcs-7,@lcs-8,@lcs-28,@lcs-29,@lcs-30
-stem3x: ERMSD REFERENCE=npt.pdb ATOMS=@lcs-11,@lcs-12,@lcs-13,@lcs-14,@lcs-22,@lcs-23,@lcs-24,@lcs-25
-stem4x: ERMSD REFERENCE=npt.pdb ATOMS=@lcs-39,@lcs-40,@lcs-41,@lcs-42,@lcs-47,@lcs-48,@lcs-49,@lcs-50
+fullx: ERMSD REFERENCE=npt_solute.pdb ATOMS=@lcs-1,@lcs-2,@lcs-3,@lcs-4,@lcs-5,@lcs-6,@lcs-7,@lcs-8,@lcs-9,@lcs-10,@lcs-11,@lcs-12,@lcs-13,@lcs-14,@lcs-15,@lcs-16,@lcs-17,@lcs-18,@lcs-19,@lcs-20,@lcs-21,@lcs-22,@lcs-23,@lcs-24,@lcs-25,@lcs-26,@lcs-27,@lcs-28,@lcs-29,@lcs-30,@lcs-31,@lcs-32,@lcs-33,@lcs-34,@lcs-35,@lcs-36,@lcs-37,@lcs-38,@lcs-39,@lcs-40,@lcs-41,@lcs-42,@lcs-43,@lcs-44,@lcs-45,@lcs-46,@lcs-47,@lcs-48,@lcs-49,@lcs-50,@lcs-51,@lcs-52,@lcs-53,@lcs-54,@lcs-55,@lcs-56,@lcs-57
+stem1x: ERMSD REFERENCE=npt_solute.pdb ATOMS=@lcs-1,@lcs-2,@lcs-3,@lcs-4,@lcs-5,@lcs-52,@lcs-53,@lcs-54,@lcs-55,@lcs-56,@lcs-57
+stem2x: ERMSD REFERENCE=npt_solute.pdb ATOMS=@lcs-6,@lcs-7,@lcs-8,@lcs-28,@lcs-29,@lcs-30
+stem3x: ERMSD REFERENCE=npt_solute.pdb ATOMS=@lcs-11,@lcs-12,@lcs-13,@lcs-14,@lcs-22,@lcs-23,@lcs-24,@lcs-25
+stem4x: ERMSD REFERENCE=npt_solute.pdb ATOMS=@lcs-39,@lcs-40,@lcs-41,@lcs-42,@lcs-47,@lcs-48,@lcs-49,@lcs-50
 
 
 # SAXS computation and Ratio CV
